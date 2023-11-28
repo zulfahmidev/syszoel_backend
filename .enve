@@ -1,0 +1,6 @@
+PORT=8080
+
+DB_HOST="ep-black-thunder-90704014-pooler.ap-southeast-1.postgres.vercel-storage.com"
+DB_USER="default"
+DB_PASS="KrqD0JiBjke2"
+DB_NAME="verceldb"

@@ -1,16 +1,11 @@
 module.exports = (sequelize, DataTypes) => {
   const Player = sequelize.define('Player', {
-    id: {
-      type: DataTypes.INTEGER,
+    xid: {
+      type: DataTypes.STRING,
+      allowNull: false,
       primaryKey: true,
-      autoIncrement: true,
-      allowNull: false
     },
     nickname: {
-      type: DataTypes.STRING,
-      allowNull: false
-    },
-    xid: {
       type: DataTypes.STRING,
       allowNull: false
     },
